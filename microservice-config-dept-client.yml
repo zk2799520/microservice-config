@@ -37,6 +37,12 @@ eureka:
     instance-id: microServiceCloud-dept8001
     prefer-ip-address: true     #访问路径可以显示IP地址 
 
+info:
+  app.name: zk-microServiceCloud
+  company.name: www.baidu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$    
+
 ---
 server:
     port: 8001
@@ -71,3 +77,9 @@ eureka:
   instance:
     instance-id: microServiceCloud-dept8001
     prefer-ip-address: true     #访问路径可以显示IP地址 
+    
+info:
+  app.name: zk-microServiceCloud
+  company.name: www.baidu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$    
